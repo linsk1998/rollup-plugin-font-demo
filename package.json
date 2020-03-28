@@ -1,0 +1,20 @@
+{
+  "name": "rollup-plugin-font-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup -c rollup.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "rollup": "^2.2.0",
+    "rollup-plugin-font": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "dependencies": {
+    "fontawesome-solid": "^5.13.0"
+  }
+}
