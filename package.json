@@ -4,17 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx rollup -c rollup.config.js"
+    "build": "npx rollup -c rollup.config.js",
+    "svg2eot": "node svg2eot.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "rollup": "^2.2.0",
-    "rollup-plugin-font": "^1.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-html": "^0.2.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.34.2",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-filesize": "^9.1.0",
+    "rollup-plugin-font": "^1.1.0"
   },
   "dependencies": {
-    "fontawesome-solid": "^5.13.0"
+    "fontawesome": "^5.6.3",
+    "fontawesome-solid": "^5.13.0",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "font-awesome": "^4.7.0",
+    "ionicons": "^2.0.1"
   }
 }

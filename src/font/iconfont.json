@@ -1,0 +1,30 @@
+{
+  "id": "1937754",
+  "name": "origin font",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6840212",
+      "name": "maximize",
+      "font_class": "maximize",
+      "unicode": "e77c",
+      "unicode_decimal": 59260
+    },
+    {
+      "icon_id": "7864037",
+      "name": "minimize",
+      "font_class": "minimize",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "7736332",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "67e5",
+      "unicode_decimal": 26597
+    }
+  ]
+}
